@@ -19,7 +19,7 @@ const papperbtn = document.createElement("button");
 papperbtn.setAttribute("id", "papper");
 papperbtn.appendChild(document.createTextNode("Papper"))
 papperbtn.addEventListener('click',function (e) {
-    playGame("papper")
+    playGame("paper")
 });
 body.appendChild(papperbtn)
 
@@ -114,3 +114,7 @@ function playGame(humanchoice) {
         scissorbtn.disabled = true;
     }
 }
+
+
+
+
